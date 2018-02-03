@@ -26,4 +26,5 @@ function doWhile(array) {
   do{
     array.pop()
   } while (maybeTrue() && array != [])
+  return array 
 }
