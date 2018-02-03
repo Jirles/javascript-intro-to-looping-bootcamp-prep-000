@@ -18,6 +18,12 @@ function whileLoop(int) {
   return 'done'
 }
 
+function maybeTrue(){
+  return Math.random() >= 0.5
+}
+
 function doWhile(array) {
-  
+  do{
+    array.pop()
+  } while (maybeTrue() && array != [])
 }
